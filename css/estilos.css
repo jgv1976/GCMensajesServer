@@ -1,0 +1,139 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-color: black;
+}
+
+
+body {
+	text-align: center;
+	font-family: "Century Gothic", Arial;
+	font-size: 14px;
+	line-height: 1.5;
+	margin-top: 20px;
+	margin-bottom: 30px;
+
+}
+
+/*#cabecera {
+	font-size: 16pt;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000;
+	background-color: #FFF;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	background-image: none;
+	border: 1px solid #090;
+	border-radius:5px;
+	padding: 5px;
+}
+#cabecera td {
+	font-size: 16pt;
+	font-weight: bold;
+	font-variant: normal;
+	color: #000;
+}*/
+
+
+#cuadro, #cuadro2 {
+	color: #2EFEF7;
+	font-weight: bold;
+	width: 450px;
+	height: 280px;
+	position: absolute;
+	top:  50%;
+	right: 50%;
+	margin-right: -250px;
+	margin-top: -200px;
+	background-color: rgba(147,147,147,0.3);
+	background-image: none;
+	border: 1px solid #2EFEF7;
+	border-radius: 15px;
+	padding: 10px;
+	opacity: 0.7;
+/*	-webkit-transition:  1s ease-in-out;
+	-moz-transition: 1s ease-in-out;
+	-o-transition: 1s ease-in-out;*/
+}
+
+#cuadro2 {
+	height: 300px;
+}
+
+textarea {
+	color: #ffffff;
+	resize: none;
+	padding: 7px;
+	margin-top: 5px;
+	border-color: #6fbeee;
+	border-collapse: #6fbeee;
+	background-color: rgba(255,255,255,0.2);
+
+}
+
+#xcuadro:hover, #xcuadro2:hover {
+	opacity: 1;
+	-moz-box-shadow: 0px 0px 40px #6fbeee;
+     -webkit-box-shadow: 0px 0px 50px #6fbeee;
+     box-shadow: 0px 0px 90px #6fbeee;
+     -webkit-transition:  1s ease-in-out;
+	 -moz-transition: 1s ease-in-out;
+	 -o-transition: 1s ease-in-out;
+     padding: 10px;
+     border: 1px solid #6fbeee;
+     border-collapse: inherit;
+}
+
+#funcion, #mensaje {
+	width: 350px;
+}
+
+#formulario {
+	opacity: 0.4;
+	position: relative;
+	top:  500px;
+	background-color: #325a98;
+	width: 600px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: none;
+	border: 1px solid #090;
+	border-radius: 15px;
+	padding: 10px;
+}
+
+#contenido td {
+	padding:5px;
+}
+
+#footer {
+	margin: 0px;
+	width: 100%;
+	position: fixed;
+    bottom: 0px;
+    background:rgba(153,153,153,0.7);
+    font-size: 13px;
+	font-style:italic;
+	font-weight:bold;
+    padding: 10px 10px 10px 10px;
+}
+
+#btnEnviar {
+	height: 30px;
+	border-radius: 8px;
+	margin-top: 20px;
+}
+
+#btnBorrar {
+	margin-left: 100px;
+}
+
+#listado {
+	color: #fff;
+	text-align: left;
+	margin-left: 80px;
+}
